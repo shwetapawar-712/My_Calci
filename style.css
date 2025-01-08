@@ -39,3 +39,16 @@ text-align: center;
     border-radius: 9px;
     cursor: pointer;
 }
+@media(max-width:768px){
+    .container{
+        padding: 5px;
+        gap: 5px;
+    }
+    .button{
+        padding: 15px;
+        width: 80px;
+    }
+    .box input{
+        width: 330px;
+    }
+}
