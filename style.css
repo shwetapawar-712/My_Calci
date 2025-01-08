@@ -1,0 +1,41 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+height: 100vh;
+}
+h2{
+margin:0 0 20px 0;
+font-family: 'Courier New', Courier, monospace;
+font-size: 1.8rem;
+text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(122, 119, 119);
+    height: 60vh;
+    width: 45vh;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.box{
+    margin: 8px 0;
+}
+.box input{
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+}
+.button{
+    width: 60px;
+    margin: 0 3px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
